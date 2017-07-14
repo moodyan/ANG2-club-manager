@@ -1,31 +1,34 @@
 {"members": [{
     "name": "John Doe",
+    "role": "founder",
     "joinDate": "5/15/2005",
     "hometown": "Portland, Oregon",
     "bio": "Trying to keep the kayak in kayak fishing since 2005.",
     "fishingType": "Kayak, Fresh Water",
     "favoriteFishery": "Any swift, moving water",
     "bestCatch": "Largemouth Bass 12lbs",
-    "fishCaught": 210,
+    "fishCaught": 210
   },
   {
     "name": "Jane Doe",
+    "role": "founder",
     "joinDate": "5/15/2005",
     "hometown": "Portland, Oregon",
     "bio": "Trying to keep the kayak in kayak fishing since 2005.",
     "fishingType": "Kayak, Fresh Water",
     "favoriteFishery": "Any swift, moving water",
     "bestCatch": "Largemouth Bass 12lbs",
-    "fishCaught": 110,
+    "fishCaught": 110
   },
   {
     "name": "John Jr Doe",
+    "role": "member",
     "joinDate": "5/15/2015",
     "hometown": "Portland, Oregon",
     "bio": "Trying to keep the kayak in kayak fishing since 2005.",
     "fishingType": "Kayak, Fresh Water",
     "favoriteFishery": "Any swift, moving water",
     "bestCatch": "Largemouth Bass 12lbs",
-    "fishCaught": 50,
+    "fishCaught": 50
   }]
 }
