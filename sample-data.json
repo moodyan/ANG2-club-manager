@@ -5,7 +5,7 @@
     "age": 4,
     "hometown": "Portland, Oregon",
     "bio": "I'm a fast dog.",
-    "fastestTime": 1234,
+    "fastestTime": 88,
     "awards": ["Most Improved 2015", "State Champion 2017"]
   },
   {
@@ -15,7 +15,7 @@
     "age": 3,
     "hometown": "Portland, Oregon",
     "bio": "I'm a very fast dog.",
-    "fastestTime": 1230,
+    "fastestTime": 85,
     "awards": ["World Champion 2017"]
   },
   {
@@ -25,7 +25,7 @@
     "age": 2,
     "hometown": "Portland, Oregon",
     "bio": "I'm a kinda fast dog.",
-    "fastestTime": 1243,
+    "fastestTime": 103,
     "awards": ["None"]
   },
   {
@@ -35,7 +35,7 @@
     "age": 6,
     "hometown": "Portland, Oregon",
     "bio": "I'm a kinda fast dog.",
-    "fastestTime": 1234,
+    "fastestTime": 107,
     "awards": ["Award", "Another Award"]
   },
   {
@@ -45,7 +45,7 @@
     "age": 1,
     "hometown": "Portland, Oregon",
     "bio": "I'm a kinda fast dog.",
-    "fastestTime": 1234,
+    "fastestTime": 99,
     "awards": ["Award", "Another Award"]
   }]
 }

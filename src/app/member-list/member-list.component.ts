@@ -13,6 +13,11 @@ import { FirebaseListObservable } from 'angularfire2/database';
 export class MemberListComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
+  filterByTime: string = "all-members";
+
+  onChange(option){
+    this.filterByTime = option;
+  }
 
   constructor(private router: Router, private memberService: MemberService) { }
 

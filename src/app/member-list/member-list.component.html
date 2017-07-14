@@ -1,10 +1,15 @@
 <div class="heading-style">
   <h2>MEMBERS</h2>
+  <select (change)="onChange($event.target.value)">
+      <option value="all-members" selected>View All Members</option>
+      <option value="fast">A Team</option>
+      <option value="slow">B Team</option>
+  </select>
 </div>
   <br>
   <br>
   <div class="panel-section">
-    <div *ngFor="let member of members | async" class="panel panel-default">
+    <div *ngFor="let member of members | async | time: filterByTime" class="panel panel-default">
       <div class="panel-body">
         <div (click)="goToDetailPage(member)">
           <h3>{{member.name}}</h3>
