@@ -34,4 +34,9 @@ export class MemberService {
     awards: localUpdatedMember.awards});
   }
 
+  deleteMember(localMemberToDelete) {
+    const memberEntryInFirebase = this.getMemberById(localMemberToDelete.$key);
+    memberEntryInFirebase.remove();
+  }
+
 }

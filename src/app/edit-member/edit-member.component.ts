@@ -21,11 +21,11 @@ export class EditMemberComponent implements OnInit {
     this.memberService.updateMember(memberToUpdate);
   }
 
-  // beginDeletingMember(memberToDelete){
-  //   if(confirm("Are you sure you want to delete this member? You cannot undo this action.")){
-  //     this.memberService.deleteMember(memberToDelete);
-  //   }
-  // }
+  beginDeletingMember(memberToDelete){
+    if(confirm("Are you sure you want to delete this member? You cannot undo this action.")){
+      this.memberService.deleteMember(memberToDelete);
+    }
+  }
 
   showEditMemberForm() {
     this.editMemberForm = true;

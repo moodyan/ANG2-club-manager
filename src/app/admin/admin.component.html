@@ -3,6 +3,12 @@
     ADMIN
   </h2>
 </div>
+
+<div>
+  <button (click)="showNewMemberForm()" *ngIf="newMemberButton">Add New Member</button>
+  <app-new-member *ngIf="newMemberForm"></app-new-member>
+</div>
+
 <div>
   <app-member-list></app-member-list>
 </div>

@@ -1,0 +1,41 @@
+<div class="heading-style">
+  <h2>
+    NEW MEMBER FORM
+  </h2>
+</div>
+<div class="form-body">
+  <label>Member Name:</label>
+  <br>
+  <input #newName>
+  <br>
+  <label>Member Role:</label>
+  <br>
+  <input #newRole>
+  <br>
+  <label>Join Date:</label>
+  <br>
+  <input #newJoinDate type="date">
+  <br>
+  <label>Age:</label>
+  <br>
+  <input #newAge type="number">
+  <br>
+  <label>Hometown:</label>
+  <br>
+  <input #newHometown>
+  <br>
+  <label>Bio:</label>
+  <br>
+  <textarea #newBio></textarea>
+  <br>
+  <label>Fastest Time (optional):</label>
+  <br>
+  <input #newFastestTime>
+  <br>
+  <label>Awards (optional):</label>
+  <br>
+  <input #newAwards>
+  <br>
+
+  <button (click)="submitForm(newName.value, newRole.value, newJoinDate.value, newAge.value, newHometown.value,  newBio.value, newFastestTime.value, newAwards.value)" *ngIf="newMemberButton">Add</button>
+</div>

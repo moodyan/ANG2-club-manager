@@ -5,6 +5,7 @@ import { AboutComponent }   from './about/about.component';
 import { MemberListComponent }   from './member-list/member-list.component';
 import { MemberDetailComponent }   from './member-detail/member-detail.component';
 import { AdminComponent }   from './admin/admin.component';
+import { NewMemberComponent }   from './new-member/new-member.component';
 
 
 const appRoutes: Routes = [
@@ -27,6 +28,10 @@ const appRoutes: Routes = [
   {
     path: 'admin',
     component: AdminComponent
+  },
+  {
+    path: 'members/new',
+    component: NewMemberComponent
   }
 ];
 
