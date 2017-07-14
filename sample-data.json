@@ -1,34 +1,51 @@
 {"members": [{
-    "name": "John Doe",
-    "role": "founder",
-    "joinDate": "5/15/2005",
+    "name": "Diesel",
+    "role": "Founder Dog",
+    "joinDate": "5/15/2014",
+    "age": 4,
     "hometown": "Portland, Oregon",
-    "bio": "Trying to keep the kayak in kayak fishing since 2005.",
-    "fishingType": "Kayak, Fresh Water",
-    "favoriteFishery": "Any swift, moving water",
-    "bestCatch": "Largemouth Bass 12lbs",
-    "fishCaught": 210
+    "bio": "I'm a fast dog.",
+    "fastestTime": 1234,
+    "awards": ["Most Improved 2015", "State Champion 2017"]
   },
   {
-    "name": "Jane Doe",
-    "role": "founder",
-    "joinDate": "5/15/2005",
+    "name": "Tank",
+    "role": "Founder Dog",
+    "joinDate": "5/15/2014",
+    "age": 3,
     "hometown": "Portland, Oregon",
-    "bio": "Trying to keep the kayak in kayak fishing since 2005.",
-    "fishingType": "Kayak, Fresh Water",
-    "favoriteFishery": "Any swift, moving water",
-    "bestCatch": "Largemouth Bass 12lbs",
-    "fishCaught": 110
+    "bio": "I'm a very fast dog.",
+    "fastestTime": 1230,
+    "awards": ["World Champion 2017"]
   },
   {
-    "name": "John Jr Doe",
-    "role": "member",
-    "joinDate": "5/15/2015",
+    "name": "Champ",
+    "role": "Member Dog",
+    "joinDate": "5/15/2014",
+    "age": 2,
     "hometown": "Portland, Oregon",
-    "bio": "Trying to keep the kayak in kayak fishing since 2005.",
-    "fishingType": "Kayak, Fresh Water",
-    "favoriteFishery": "Any swift, moving water",
-    "bestCatch": "Largemouth Bass 12lbs",
-    "fishCaught": 50
+    "bio": "I'm a kinda fast dog.",
+    "fastestTime": 1243,
+    "awards": ["None"]
+  },
+  {
+    "name": "Sweet Pea",
+    "role": "Member Dog",
+    "joinDate": "5/15/2014",
+    "age": 6,
+    "hometown": "Portland, Oregon",
+    "bio": "I'm a kinda fast dog.",
+    "fastestTime": 1234,
+    "awards": ["Award", "Another Award"]
+  },
+  {
+    "name": "Bertha",
+    "role": "Member Dog",
+    "joinDate": "5/15/2014",
+    "age": 1,
+    "hometown": "Portland, Oregon",
+    "bio": "I'm a kinda fast dog.",
+    "fastestTime": 1234,
+    "awards": ["Award", "Another Award"]
   }]
 }

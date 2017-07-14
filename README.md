@@ -6,14 +6,14 @@
 
 ## Description
 
-_An app that manages the roster of a fictitious fishing club._
+_An app that manages the roster of a fictitious bulldog racing club._
 
 ## Program Specifications
 
 | Description  | Input Example | Output Example |
 | ------------- | ------------- | ------------- |
 | The program allows users to view a list of all members in the club.  | View All Members  | Returns a list of all members.  |
-| The program allows users to click on a member and view more details about that member.  | "Jane Doe"  | Shows bio, fishing stats, favorite fishery etc  |
+| The program allows users to click on a member and view more details about that member.  | "Diesel"  | Shows bio, racing stats, etc  |
 | The program allows users to view an about page.  | --  | --  |
 | The program allows users to filter members.  | --  | --  |
 | The program allows admin to add a new member.  | --  | --  |

@@ -1,3 +1,15 @@
-<p>
-  member-list works!
-</p>
+<div class="heading-style">
+  <h2>MEMBERS</h2>
+</div>
+  <br>
+  <br>
+  <div class="panel-section">
+    <div *ngFor="let member of members | async" class="panel panel-default">
+      <div class="panel-body">
+        <div (click)="goToDetailPage(member)">
+          <h3>{{member.name}}</h3>
+          <h5>{{member.role}}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
