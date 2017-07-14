@@ -10,21 +10,12 @@ import { Member } from '../member.model';
 })
 export class AdminComponent implements OnInit {
 
-  newMemberForm: boolean = false;
-  newMemberButton: boolean = true;
+  
 
   constructor(private memberService: MemberService) { }
 
   ngOnInit() {
   }
 
-  showNewMemberForm() {
-    this.newMemberForm = true;
-    this.newMemberButton = false;
-  }
 
-  hideNewMemberForm() {
-    this.newMemberButton = true;
-    this.newMemberForm = false;
-  }
 }

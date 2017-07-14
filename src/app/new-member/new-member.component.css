@@ -1,0 +1,10 @@
+.form-body {
+  margin: auto;
+  align-self: center;
+  text-align: center;
+  width: 50%;
+  height: auto;
+  background-color: rgba(255, 252, 249, .9);
+  padding: 30px;
+  box-shadow: 1px 1px 1px grey;
+}

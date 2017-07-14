@@ -1,9 +1,11 @@
-<div class="heading-style">
+<div class="center">
+  <button (click)="showNewMemberForm()" *ngIf="newMemberButton">Add New Member</button>
+</div>
+
+<div class="form-body" *ngIf="newMemberForm">
   <h2>
     NEW MEMBER FORM
   </h2>
-</div>
-<div class="form-body">
   <label>Member Name:</label>
   <br>
   <input #newName>
@@ -36,6 +38,6 @@
   <br>
   <input #newAwards>
   <br>
-
-  <button (click)="submitForm(newName.value, newRole.value, newJoinDate.value, newAge.value, newHometown.value,  newBio.value, newFastestTime.value, newAwards.value)" *ngIf="newMemberButton">Add</button>
+  <br>
+  <button (click)="submitForm(newName.value, newRole.value, newJoinDate.value, newAge.value, newHometown.value,  newBio.value, newFastestTime.value, newAwards.value)">Add</button>
 </div>

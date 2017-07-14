@@ -9,6 +9,9 @@ import { MemberService } from '../member.service';
   providers: [MemberService]
 })
 export class NewMemberComponent implements OnInit {
+  newMemberForm: boolean = false;
+  newMemberButton: boolean = true;
+
 
   constructor(private memberService: MemberService) { }
 
@@ -19,6 +22,13 @@ export class NewMemberComponent implements OnInit {
     awards = null;
     var newMember: Member = new Member(name, role, joinDate, Number(age), hometown, bio, Number(fastestTime), awards);
     this.memberService.addMember(newMember);
+    this.newMemberForm = false;
+    this.newMemberButton = true;
+
+  }
+  showNewMemberForm() {
+    this.newMemberForm = true;
+    this.newMemberButton = false;
   }
 
 }

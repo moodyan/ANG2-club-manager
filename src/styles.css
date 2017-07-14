@@ -6,3 +6,102 @@
   background-color: #f5f5f5;
   padding: 15px;
 }
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+  padding-left: 100px;
+}
+
+body {
+  background-image: url("http://cdn.wallpapersafari.com/99/3/IK9wk3.jpg");
+  min-height: 110vh;
+  background-repeat: repeat;
+  background-size: cover;
+  /*min-height: 110vh;*/
+  background-position: center;
+  padding-bottom: 200px;
+  align-items: center;
+}
+
+.heading-style h2 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.heading-style {
+  text-align: center;
+}
+
+.panel-section{
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  flex-wrap: wrap;
+  margin-left: 40px;
+}
+.panel {
+   display: flex;
+   /*flex-direction: row;*/
+   /*flex-wrap: wrap;*/
+   max-width: 400px;
+   min-width: 400px;
+   width: 400px;
+
+   /*min-height: 375px;*/
+  box-shadow: 1px 1px 1px grey;
+  background-color: #fffcf9;
+  padding: 40px;
+  justify-content: space-between;
+  /*flex-direction: column;*/
+  min-height: 20vh;
+  /*display: flex;*/
+
+}
+
+.panel-body {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(77,	143,	172, .5);
+}
+
+.panel-body button {
+  align-self: center;
+  margin: 5px;
+}
+
+.panel-body:hover {
+  box-shadow: 3px 3px 3px grey;
+}
+
+button:hover {
+  background-color: orange;
+  color: white;
+}
+
+button {
+  background-color: white;
+  box-shadow: 1px 1px 1px grey;
+  /*align-self: center;*/
+}
+
+textarea {
+  width: 280px;
+  min-height: 125px;
+}
+
+input {
+  width: 280px;
+}
+
+.clickable {
+  cursor: hand;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}

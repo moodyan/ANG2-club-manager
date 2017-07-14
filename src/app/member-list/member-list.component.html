@@ -11,7 +11,7 @@
   <div class="panel-section">
     <div *ngFor="let member of members | async | time: filterByTime" class="panel panel-default">
       <div class="panel-body">
-        <div (click)="goToDetailPage(member)">
+        <div class="clickable" (click)="goToDetailPage(member)">
           <h3>{{member.name}}</h3>
           <h5>{{member.role}}</h5>
         </div>

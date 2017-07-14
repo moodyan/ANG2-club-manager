@@ -1,0 +1,41 @@
+* {
+  text-align: center;
+}
+
+#home {
+  background-image: none;
+  background-color: white;
+  align-items: center;
+  min-width: 500px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+#home-header {
+  min-width: 100vh;
+  /*align-self: center;
+  align-items: center;*/
+}
+
+#home-title, #home-title2 {
+  width: 100vh;
+	/*display: inline;*/
+	position: relative;
+	font: 100px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+}
+
+#home-title:after {
+  width: 100vh;
+	content: "RUNNING OF THE";
+	position: absolute; left: 6px; top: 5px;
+	color: rgba(255,0,0,0.5);
+}
+
+#home-title2:after {
+  width: 100vh;
+	content: "BULLdogs";
+	position: absolute; left: 5px; top: 3px;
+	color: rgba(255,0,0,0.5);
+}
