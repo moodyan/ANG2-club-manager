@@ -1,0 +1,48 @@
+<button (click)="showEditMemberForm()" *ngIf="editMemberButton">Edit this Member</button>
+
+<div *ngIf="editMemberForm">
+  <h4>Edit Member</h4>
+  <label>Member Name:</label>
+  <br>
+  <input [(ngModel)]="selectedMember.name">
+  <br>
+
+  <label>Member Role:</label>
+  <br>
+  <input [(ngModel)]="selectedMember.role">
+  <br>
+
+  <label>Join Date:</label>
+  <br>
+  <input [(ngModel)]="selectedMember.joinDate">
+  <br>
+
+  <label>Age:</label>
+  <br>
+  <input [(ngModel)]="selectedMember.age">
+  <br>
+
+  <label>Hometown:</label>
+  <br>
+  <input [(ngModel)]="selectedMember.hometown">
+  <br>
+
+  <label>Fastest Time:</label>
+  <br>
+  <input [(ngModel)]="selectedMember.time">
+  <br>
+
+  <label>Awards:</label>
+  <br>
+  <input [(ngModel)]="selectedMember.awards">
+  <br>
+
+  <label>Bio:</label>
+  <br>
+  <textarea [(ngModel)]="selectedMember.bio"></textarea>
+  <br>
+
+  <button (click)="beginUpdatingMember(selectedMember)" (click)="hideEditMemberForm()">Update</button>
+  <!-- <hr>
+  <button (click)="beginDeletingMember(selectedMember)">Delete</button> -->
+</div>

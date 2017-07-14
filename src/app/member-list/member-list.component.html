@@ -10,6 +10,9 @@
           <h3>{{member.name}}</h3>
           <h5>{{member.role}}</h5>
         </div>
+        <div *ngIf="currentRoute === '/admin'">
+          <app-edit-member [selectedMember]="member"></app-edit-member>
+        </div>
       </div>
     </div>
   </div>
