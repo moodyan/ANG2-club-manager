@@ -1,15 +1,9 @@
-div {
-
-}
-
 .detail-body {
   align-self: center;
   align-items: center;
   padding: 30px;
   min-width: 50vh;
-  /*width: 50vh;*/
   background-color: rgba(255,	99, 71, .7);
   border: 3px white solid;
-  /*margin-right: 25vh;*/
   text-align: center;
 }

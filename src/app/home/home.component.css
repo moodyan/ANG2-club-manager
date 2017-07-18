@@ -9,6 +9,7 @@
   min-width: 500px;
   padding: 30px;
   border-radius: 5px;
+  border: 10px solid yellow;
 }
 
 #home-header {
